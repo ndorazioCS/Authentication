@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "run": "nodemon main",
-    "test": "run test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/ndorazioCS/Authentication/issues"
   },
-  "homepage": "https://github.com/ndorazioCS/Authentication#readme"
+  "homepage": "https://github.com/ndorazioCS/Authentication#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4"
+  }
 }
